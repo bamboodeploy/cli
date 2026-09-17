@@ -1,6 +1,6 @@
 {
   "name": "@bamboodeploy/cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Scan and code-sign Windows binaries (.exe / .msi) from any build pipeline via the Bamboo Deploy API",
   "license": "MIT",
   "bin": { "bamboo": "bin/bamboo.js" },
