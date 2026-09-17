@@ -1,0 +1,13 @@
+{
+  "name": "@bamboodeploy/cli",
+  "version": "1.0.0",
+  "description": "Scan and code-sign Windows binaries (.exe / .msi) from any build pipeline via the Bamboo Deploy API",
+  "license": "MIT",
+  "bin": { "bamboo": "bin/bamboo.js" },
+  "main": "lib/api.js",
+  "files": ["bin", "lib", "README.md"],
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "https://github.com/bamboodeploy/cli" },
+  "homepage": "https://www.bamboodeploy.com/docs/",
+  "keywords": ["code-signing", "authenticode", "signtool", "windows", "exe", "msi", "smartscreen", "electron-builder", "ci", "release"]
+}
